@@ -1,0 +1,33 @@
+Nome: Enzo Rodrigues Gouveia
+RM: 81060
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TesteNac1 {
+
+	@Test
+	public void testCalcularPena() {
+		JulgamentoPrisioneiro julgamento = new JulgamentoPrisioneiro();
+		int repostaReal;
+		
+		//Condenação mutua
+		repostaReal = julgamento.calculaPena("Culpado", "Culpado");
+		assertEquals(5, repostaReal);
+		
+		//Condenação individual
+		repostaReal = julgamento.calculaPena("Culpado", "Inocente");
+		assertEquals(10, repostaReal);
+		
+		//Condenação simples
+		repostaReal = julgamento.calculaPena("Inocente", "Culpado");
+		assertEquals(1, repostaReal);
+		
+		//Inocente
+		repostaReal = julgamento.calculaPena("Inocente", "Inocente");
+		assertEquals(0, repostaReal);
+		
+	}
+
+}
