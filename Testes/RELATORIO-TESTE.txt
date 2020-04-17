@@ -77,7 +77,11 @@ Foi modificada a linha na qual apresentava a PENA DE CONDENAÇÃO CUMPLICES que 
 	3°Erro: "org.opentest4j.AssertionFailedError: expected: <0> but was: <1>". A messagem revela que foi encontrada uma PENA DE CONDENAÇÃO CUMPLICES porem deveria ser uma PENA INOCENCIA .
 
 
-
+Foi modificada a linha na qual apresentava a PENA DE CONDENAÇÃO CUMPLICES para PENA INOCENCIA.
+"} else {
+                         return PENA_INOCENCIA;
+                        }
+                }"
 
 
 
