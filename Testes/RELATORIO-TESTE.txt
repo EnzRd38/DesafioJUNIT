@@ -90,3 +90,8 @@ Foi modificada a linha na qual apresentava a PENA INOCENTE que era 10 e agora fo
 
 	7°Erro: "org.opentest4j.AssertionFailedError: expected: <10> but was: <0>". A messagem revela que foi encontrada uma PENA INOCENTE porem deveria ser uma PENA DE CONDENAÇÃO INDIVIDUAL.
 
+
+Foi modificada a linha na qual apresentava a PENA INOCENTE para PENA DE CONDENAÇÃO INDIVIDUAL.
+"}} else {
+                 return PENA_CONDENACAO_INDIVIDUAL;
+                 }"
