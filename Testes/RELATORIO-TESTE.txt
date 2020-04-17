@@ -21,7 +21,7 @@ class TesteNac1 {
 		repostaReal = julgamento.calculaPena("Culpado", "Inocente");
 		assertEquals(10, repostaReal);
 		
-		//Condenação simples
+		//Condenação cumplices
 		repostaReal = julgamento.calculaPena("Inocente", "Culpado");
 		assertEquals(1, repostaReal);
 		
@@ -54,6 +54,13 @@ public int calculaPena(String respostaPrisioneiroA, String respostaPrisioneiroB)
 	Foi modificado alterando o tipo "Resposta" e colocando String para a comparação usando o "equals".
 
 
-	2°Erro: "org.opentest4j.AssertionFailedError: expected: <5> but was: <15>". A messagem revela que que o valor esperado era 5 porém a pena foi identificada como 15.
+	2°Erro: "org.opentest4j.AssertionFailedError: expected: <5> but was: <15>". A messagem revela que que o valor esperado para a PENA DE CONDENAÇÃO MUTUA era 5 porém a pena foi identificada como 15.
+
+
+Foi modificada a linha na qual apresentava a PENA DE CONDENAÇÃO MUTUA que era 15 e agora foi para 5. "private int PENA_CONDENACAO_MUTUA = 5;"
+
+
+	3°Erro: "org.opentest4j.AssertionFailedError: expected: <1> but was: <10>". A messagem revela que deveria ter encontrado uma PENA DE CONDENAÇÃO INDIVIDUAL porem deveria ser uma PENA DE CONDENAÇÃO CUMPLICES.
+
 
 
