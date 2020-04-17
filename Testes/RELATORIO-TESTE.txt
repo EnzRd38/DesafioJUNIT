@@ -68,5 +68,6 @@ Foi modificada a linha na qual apresentava a PENA DE CONDENAÇÃO INDIVIDUAL par
 if ("Culpado".equals(respostaPrisioneiroB)) {
 return PENA_CONDENACAO_CUMPLICES;"
 
+	4°Erro: "org.opentest4j.AssertionFailedError: expected: <1> but was: <11>". A messagem revela que que o valor esperado para a PENA DE CONDENAÇÃO CUMPLICES era 1 porém a pena foi identificada como 11.
 
 
