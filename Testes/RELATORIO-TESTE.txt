@@ -30,7 +30,9 @@ class TesteNac1 {
 		assertEquals(0, repostaReal);
 		
 	}}
-	Erro: "The method calculaPena(Resposta, Resposta) from the type JulgamentoPrisioneiro refers to the missing type Resposta". A menssagem revela que tem um erro de ferência no qual ele não acha o tipo Resposta na classe JulgamentoPrisioneiro.
+
+
+	1°Erro: "The method calculaPena(Resposta, Resposta) from the type JulgamentoPrisioneiro refers to the missing type Resposta". A menssagem revela que tem um erro de ferência no qual ele não acha o tipo Resposta na classe JulgamentoPrisioneiro.
 
 
 
@@ -50,5 +52,8 @@ public int calculaPena(String respostaPrisioneiroA, String respostaPrisioneiroB)
                 }
      }
 	Foi modificado alterando o tipo "Resposta" e colocando String para a comparação usando o "equals".
+
+
+	2°Erro: "org.opentest4j.AssertionFailedError: expected: <5> but was: <15>". A messagem revela que que o valor esperado era 5 porém a pena foi identificada como 15.
 
 
