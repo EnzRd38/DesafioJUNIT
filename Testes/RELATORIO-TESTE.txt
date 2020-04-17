@@ -30,5 +30,5 @@ class TesteNac1 {
 		assertEquals(0, repostaReal);
 		
 	}}
-	Erro: "The method calculaPena(Resposta, Resposta) from the type JulgamentoPrisioneiro refers to the missing type Resposta". O erro revela que tem um erro de ferência no qual ele não acha o tipo Resposta no classe JulgamentoPrisioneiro.
+	Erro: "The method calculaPena(Resposta, Resposta) from the type JulgamentoPrisioneiro refers to the missing type Resposta". A menssagem revela que tem um erro de ferência no qual ele não acha o tipo Resposta na classe JulgamentoPrisioneiro.
 
