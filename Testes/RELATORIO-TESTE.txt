@@ -32,3 +32,23 @@ class TesteNac1 {
 	}}
 	Erro: "The method calculaPena(Resposta, Resposta) from the type JulgamentoPrisioneiro refers to the missing type Resposta". A menssagem revela que tem um erro de ferência no qual ele não acha o tipo Resposta na classe JulgamentoPrisioneiro.
 
+
+
+public int calculaPena(String respostaPrisioneiroA, String respostaPrisioneiroB) {
+      if ("Culpado".equals(respostaPrisioneiroA)) {
+          if ("Culpado".equals(respostaPrisioneiroB)) {
+            return PENA_CONDENACAO_MUTUA;
+          } else {
+                 return PENA_INOCENCIA;
+                 }
+       } else {
+                if ("Culpado".equals(respostaPrisioneiroB)) {
+                    return PENA_CONDENACAO_INDIVIDUAL;
+                } else {
+                         return PENA_CONDENACAO_CUMPLICES;
+                        }
+                }
+     }
+	Foi modificado alterando o tipo "Resposta" e colocando String para a comparação usando o "equals".
+
+
