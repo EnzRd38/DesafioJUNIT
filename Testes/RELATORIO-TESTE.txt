@@ -74,7 +74,7 @@ return PENA_CONDENACAO_CUMPLICES;"
 Foi modificada a linha na qual apresentava a PENA DE CONDENAÇÃO CUMPLICES que era 11 e agora foi para 1. "private int PENA_CONDENACAO_CUMPLICES = 1;"
 
 
-	3°Erro: "org.opentest4j.AssertionFailedError: expected: <0> but was: <1>". A messagem revela que foi encontrada uma PENA DE CONDENAÇÃO CUMPLICES porem deveria ser uma PENA INOCENCIA .
+	5°Erro: "org.opentest4j.AssertionFailedError: expected: <0> but was: <1>". A messagem revela que foi encontrada uma PENA DE CONDENAÇÃO CUMPLICES porem deveria ser uma PENA INOCENCIA .
 
 
 Foi modificada a linha na qual apresentava a PENA DE CONDENAÇÃO CUMPLICES para PENA INOCENCIA.
@@ -83,10 +83,10 @@ Foi modificada a linha na qual apresentava a PENA DE CONDENAÇÃO CUMPLICES para
                         }
                 }"
 
-	5°Erro: "org.opentest4j.AssertionFailedError: expected: <0> but was: <10>". A messagem revela que que o valor esperado para a PENA DE CONDENAÇÃO INOCENCIA era 0 porém a pena foi identificada como 10.
+	6°Erro: "org.opentest4j.AssertionFailedError: expected: <0> but was: <10>". A messagem revela que que o valor esperado para a PENA DE CONDENAÇÃO INOCENCIA era 0 porém a pena foi identificada como 10.
 
 Foi modificada a linha na qual apresentava a PENA INOCENTE que era 10 e agora foi para 0. "private int PENA_INOCENTE = 0;"
 
 
-
+	7°Erro: "org.opentest4j.AssertionFailedError: expected: <10> but was: <0>". A messagem revela que foi encontrada uma PENA INOCENTE porem deveria ser uma PENA DE CONDENAÇÃO INDIVIDUAL.
 
