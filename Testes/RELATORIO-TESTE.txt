@@ -63,4 +63,10 @@ Foi modificada a linha na qual apresentava a PENA DE CONDENAÇÃO MUTUA que era 
 	3°Erro: "org.opentest4j.AssertionFailedError: expected: <1> but was: <10>". A messagem revela que deveria ter encontrado uma PENA DE CONDENAÇÃO INDIVIDUAL porem deveria ser uma PENA DE CONDENAÇÃO CUMPLICES.
 
 
+Foi modificada a linha na qual apresentava a PENA DE CONDENAÇÃO INDIVIDUAL para PENA DE CONDENAÇÃO CUMPLICES.
+"else { 
+if ("Culpado".equals(respostaPrisioneiroB)) {
+return PENA_CONDENACAO_CUMPLICES;"
+
+
 
