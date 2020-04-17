@@ -1,6 +1,7 @@
 Nome: Enzo Rodrigues Gouveia
 RM: 81060
 
+
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
@@ -28,6 +29,6 @@ class TesteNac1 {
 		repostaReal = julgamento.calculaPena("Inocente", "Inocente");
 		assertEquals(0, repostaReal);
 		
-	}
+	}}
+	Erro: "The method calculaPena(Resposta, Resposta) from the type JulgamentoPrisioneiro refers to the missing type Resposta". O erro revela que tem um erro de ferência no qual ele não acha o tipo Resposta no classe JulgamentoPrisioneiro.
 
-}
