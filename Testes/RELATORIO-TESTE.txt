@@ -83,6 +83,9 @@ Foi modificada a linha na qual apresentava a PENA DE CONDENAÇÃO CUMPLICES para
                         }
                 }"
 
+	5°Erro: "org.opentest4j.AssertionFailedError: expected: <0> but was: <10>". A messagem revela que que o valor esperado para a PENA DE CONDENAÇÃO INOCENCIA era 0 porém a pena foi identificada como 10.
+
+Foi modificada a linha na qual apresentava a PENA INOCENTE que era 10 e agora foi para 0. "private int PENA_INOCENTE = 0;"
 
 
 
